@@ -1,0 +1,66 @@
+main{
+  width: 100vw;
+  height: 100vh;
+  
+}
+#artist{
+  font-size: 20px;
+  font-weight: 600;
+}
+#header{
+  position: relative;
+  width: 100vw;
+  height: 150px;
+  background-color: rgb(74, 139, 136);
+  }
+  #tc{
+      display: flex;
+      position: absolute;
+      top: 20px;
+      left: 50px;
+      width: 50px;
+      height: 90px;
+  }
+  #comp{
+      display: flex;
+      position: relative;
+      left: 120px;
+      top: 45px;
+      color: #221F1F;
+      font-size: 40px;
+  }
+  section{
+    width: 200px;
+    height: 100vh;
+    background-color: #221F1F;
+  }
+  #sidenav{
+      color: rgb(199, 197, 197);
+      font-size: 20px;
+  }
+  .parent{
+      display: flex;
+      position: relative;
+      left: 20px;
+      top: 80px;
+      flex-flow: column;
+      align-content: center;
+  }
+  #nav{
+      font-size: 30px;
+      text-decoration: underline;
+  }
+  .info{
+    position: absolute;
+    display: flex;
+    align-content: center;
+    justify-content: space-around;
+    text-align: center;
+    left: 600px;
+    bottom: 350px;
+  }
+  res{
+    display: flex;
+    position: absolute;
+    text-align: center;
+  }
